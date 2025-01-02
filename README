@@ -1,4 +1,4 @@
-##E-Commerce Notebook and Model Usage
+# E-Commerce Notebook and Model Usage
 
 This document provides guidance on using the E-Commerce Jupyter Notebook for data analysis and machine learning, as well as instructions for utilizing the exported model saved as a .pkl file.
 
@@ -38,10 +38,12 @@ Python 3.6+
 
 Jupyter Notebook
 
-Libraries: pandas, numpy, matplotlib, seaborn, sklearn, sqlite3, pickle, tensorflow
+* Libraries: pandas, numpy, matplotlib, seaborn, sklearn, sqlite3, pickle, tensorflow
 
 Install libraries:
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
+```
 
 Using the notebook
 1. Open the notebook in your working directory or in a IDE
@@ -54,6 +56,8 @@ Using the notebook
 4. Exported Model
   * The trained model is saved as model.pkl in the working directory
 
-#Run the prediction Model 
+# Run the prediction Model 
+```bash
 python prediction_model.py
 
+```
