@@ -2,41 +2,41 @@
 
 This document provides guidance on using the E-Commerce Jupyter Notebook for data analysis and machine learning, as well as instructions for utilizing the exported model saved as a .pkl file.
 
-Overview
+# Overview
 
 The notebook is designed for:
 
-Analyzing e-commerce data stored in an SQLite database (ecommerce.db).
+* Analyzing e-commerce data stored in an SQLite database (ecommerce.db).
 
-Performing feature engineering and exploratory data analysis (EDA).
+* Performing feature engineering and exploratory data analysis (EDA).
 
-Training a machine learning model for predictive tasks.
+* Training a machine learning model for predictive tasks.
 
-Saving the trained model for reuse.
+* Saving the trained model for reuse.
 
 The model can predict outcomes based on features derived from the e-commerce dataset.
 
-Files Provided
+# Files Provided
 
-Notebook File: E_Commerce (1).ipynb
+1. Notebook File: E_Commerce (1).ipynb
 
 Contains the complete workflow for data loading, analysis, and model training.
 
-Saved Model: model.pkl
+2. Saved Model: model.pkl
 
 A serialized version of the trained machine learning model.
 
-E-Commerce Database: ecommerce.db (ensure it exists in the same directory).
+3. E-Commerce Database: ecommerce.db (ensure it exists in the same directory).
 
 Contains the dataset used in the notebook.
 
-Prerequisites
+# Prerequisites
 
 Ensure the following are installed:
 
-Python 3.6+
+* Python 3.6+
 
-Jupyter Notebook
+* Jupyter Notebook
 
 * Libraries: pandas, numpy, matplotlib, seaborn, sklearn, sqlite3, pickle, tensorflow
 
